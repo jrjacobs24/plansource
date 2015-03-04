@@ -1,0 +1,870 @@
+{
+    "key": "group_546ab61928834",
+    "title": "Home Page",
+    "fields": [
+        {
+            "key": "field_546bfb892505d",
+            "label": "Rotating Banner",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_546bfbbe2505e",
+            "label": "Banner Repeater",
+            "name": "banner_repeater",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "Here you can update the banner images, text and links. ",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "row",
+            "button_label": "Add Banners",
+            "sub_fields": [
+                {
+                    "key": "field_546bfcc788639",
+                    "label": "Banner Image",
+                    "name": "banner_image",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "This is where you'll add you images for the rotating gallery area. These should be 1280px by 340px.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all"
+                },
+                {
+                    "key": "field_546bfeabc9b6e",
+                    "label": "Banner Headline",
+                    "name": "banner_headline",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Blue, headline text for the banner area.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bfeeac9b6f",
+                    "label": "Banner Text",
+                    "name": "banner_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bff33c9b70",
+                    "label": "Banner CTA Text",
+                    "name": "banner_cta_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "This is the text for the button of your call to action.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bff75c9b71",
+                    "label": "Banner CTA Link Location",
+                    "name": "banner_cta_link",
+                    "prefix": "",
+                    "type": "url",
+                    "instructions": "Please enter the url of the page you would like to link to.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_545d253480d8c",
+            "label": "Products and Services Callouts",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_542ae5baaa570",
+            "label": "Products & Services",
+            "name": "products_services",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": 4,
+            "layout": "row",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_542ae62baa571",
+                    "label": "Product or Service logo",
+                    "name": "products_services_logo",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "return_format": "url"
+                },
+                {
+                    "key": "field_542af8565a0ea",
+                    "label": "Product or Service Alt Text",
+                    "name": "products_services_alt",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please add the alt. text for the your image here.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "none",
+                    "maxlength": 30,
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_542ae699aa572",
+                    "label": "Product or Service Headline",
+                    "name": "products_services_headline",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please add your product headline here.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 30,
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_542ae734aa573",
+                    "label": "Product or Service Content",
+                    "name": "product_service_content",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please enter a brief sentence about this Product or Service",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Product or Service content",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 75,
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_542af16f8620e",
+                    "label": "Product or Service Link",
+                    "name": "products_services_link",
+                    "prefix": "",
+                    "type": "page_link",
+                    "instructions": "Please choose a page to link this product or service to.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "taxonomy": []
+                }
+            ]
+        },
+        {
+            "key": "field_545d257180d8d",
+            "label": "Logo Area",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_545d2ed246ed5",
+            "label": "Home Page Logos",
+            "name": "slider_logos",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "row_min": "",
+            "row_limit": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "min": 0,
+            "max": 0,
+            "sub_fields": [
+                {
+                    "key": "field_545d2f6e46ed6",
+                    "label": "Logo Graphic",
+                    "name": "logo_graphic",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "Recommended size: 125 x 125px",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 33,
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all"
+                },
+                {
+                    "key": "field_545d2f9546ed7",
+                    "label": "Logo Alt Text",
+                    "name": "logo_alt_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_545d25d4c89f9",
+            "label": "Blue Callouts",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_5409cf5a7ec04",
+            "label": "Blue Callout 1 title",
+            "name": "callout_1_title",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Please add the title of callout one",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Callout 1 Title",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5409d06694bcc",
+            "label": "Blue Callout 1 Content",
+            "name": "callout_1_content",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "Please add the content for this callout.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Callout 1 content",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_542d59346755b",
+            "label": "Blue Callout 1 Link Text",
+            "name": "callout_1_link_text",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Please add the text you want linked here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5409d09c94bcd",
+            "label": "Blue Callout 1 Link Location",
+            "name": "callout_1_link",
+            "prefix": "",
+            "type": "page_link",
+            "instructions": "Please select the page you would like to link to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "taxonomy": []
+        },
+        {
+            "key": "field_54739fef22cb5",
+            "label": "Videos",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_54739ffd22cb6",
+            "label": "Video Slides",
+            "name": "video_slides",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Video",
+            "sub_fields": [
+                {
+                    "key": "field_5473a00922cb7",
+                    "label": "Video Title",
+                    "name": "video_title",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5473a01022cb8",
+                    "label": "Video Sub Title",
+                    "name": "video_sub_title",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5473a01522cb9",
+                    "label": "Preview Image",
+                    "name": "preview_image",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "Size: 581px x 270px",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all"
+                },
+                {
+                    "key": "field_5473a02422cba",
+                    "label": "Video URL",
+                    "name": "video_url",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_546bb30eadcb6",
+            "label": "Features",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_546bb057663b2",
+            "label": "Featured Articles",
+            "name": "home_related_article",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "Three featured articles\/links. White boxes at the bottom of the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": 3,
+            "layout": "row",
+            "button_label": "Add Featured Item",
+            "sub_fields": [
+                {
+                    "key": "field_546bb057663b3",
+                    "label": "Related Article Source",
+                    "name": "home_related_article_source",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Event, Blog etc. ",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bb057663b4",
+                    "label": "Article Title",
+                    "name": "home_related_article_title",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Title of the related article",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bb057663b5",
+                    "label": "Article Content",
+                    "name": "home_related_article_content",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please add the first sentence of your article.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bb057663b6",
+                    "label": "Article Link Text",
+                    "name": "home_related_article_linked_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Keep in mind that if possible, linking key words is more beneficial to SEO than, \"read more\".",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546bb057663b7",
+                    "label": "Article Link Location",
+                    "name": "home_related_article_link_location",
+                    "prefix": "",
+                    "type": "url",
+                    "instructions": "Please add the link to the page.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_546d06bd98a26",
+            "label": "Featured Articles (copy)",
+            "name": "home_related_article_copy",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "Three featured articles\/links. White boxes at the bottom of the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": 3,
+            "layout": "row",
+            "button_label": "Add Featured Item",
+            "sub_fields": [
+                {
+                    "key": "field_546d06bd98a27",
+                    "label": "Related Article Source",
+                    "name": "home_related_article_source",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Event, Blog etc. ",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546d06bd98a28",
+                    "label": "Article Title",
+                    "name": "home_related_article_title",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Title of the related article",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546d06bd98a29",
+                    "label": "Article Content",
+                    "name": "home_related_article_content",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please add the first sentence of your article.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546d06bd98a2a",
+                    "label": "Article Link Text",
+                    "name": "home_related_article_linked_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Keep in mind that if possible, linking key words is more beneficial to SEO than, \"read more\".",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_546d06bd98a2b",
+                    "label": "Article Link Location",
+                    "name": "home_related_article_link_location",
+                    "prefix": "",
+                    "type": "url",
+                    "instructions": "Please add the link to the page.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "20"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "discussion",
+        "revisions"
+    ]
+}

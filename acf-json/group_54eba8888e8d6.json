@@ -1,0 +1,1666 @@
+{
+    "key": "group_54eba8888e8d6",
+    "title": "Products Page Template (No Logos)",
+    "fields": [
+        {
+            "key": "field_54eba8889a8eb",
+            "label": "Banner Area",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_54eba8889a977",
+            "label": "Page Title Text",
+            "name": "page_title_text",
+            "prefix": "",
+            "type": "text",
+            "instructions": "This is the text field of the orange banner area.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889aa1c",
+            "label": "Page Title Image",
+            "name": "page_title_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "This is the image that would display to the left of the text in the orange banner area.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "url"
+        },
+        {
+            "key": "field_54eba8889aa5d",
+            "label": "Pinned Nav CTA 1 Text",
+            "name": "pinned_nav_cta_1_text",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Video Demo, Product Guide, etc. Less than 16 characters. Longer text may wrap on mobile devices.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889aab5",
+            "label": "Pinned Nav CTA 1 Link",
+            "name": "pinned_nav_cta_1_link",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Please enter the url of the video you are linking to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889ab03",
+            "label": "Pinned Nav CTA 1 Icon",
+            "name": "pinned_nav_cta_1_icon",
+            "prefix": "",
+            "type": "text",
+            "instructions": "For this field, please use and icon via font awesome. http:\/\/fortawesome.github.io\/Font-Awesome\/icons\/\r\n\r\nClicking an icon will give you the code to paste into this field.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "<i class=\"fa fa-play-circle\"><\/i>",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889ab45",
+            "label": "Pinned Nav CTA 2 Text",
+            "name": "pinned_nav_cta_2_text",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Video Demo, Product Guide, etc. ",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889ab86",
+            "label": "Pinned Nav CTA 2 Link",
+            "name": "pinned_nav_cta_2_link",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Please enter the url of the video you are linking to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889abc6",
+            "label": "Pinned Nav CTA 2 Icon",
+            "name": "pinned_nav_cta_2_icon",
+            "prefix": "",
+            "type": "text",
+            "instructions": "For this field, please use and icon via font awesome. http:\/\/fortawesome.github.io\/Font-Awesome\/icons\/\r\n\r\nClicking an icon will give you the code to paste into this field.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "<i class=\"fa fa-play-circle\"><\/i>",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889ac07",
+            "label": "Banner Image",
+            "name": "products_overview_banner_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "This is the image behind the yellow text in the banner area.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all"
+        },
+        {
+            "key": "field_54eba8889ac25",
+            "label": "Banner Text",
+            "name": "products_banner_text",
+            "prefix": "",
+            "type": "text",
+            "instructions": "This is the large yellow text at the top of the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": 70,
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889ac6e",
+            "label": "Banner Link Text",
+            "name": "products_banner_cta_text",
+            "prefix": "",
+            "type": "text",
+            "instructions": "This is the text for the CTA button under the yellow text at the top of the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": 25,
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889acaf",
+            "label": "Banner Link Location",
+            "name": "products_banner_cta_link",
+            "prefix": "",
+            "type": "page_link",
+            "instructions": "Use this field to select the location that you would like your button to link to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "taxonomy": []
+        },
+        {
+            "key": "field_54eba8889ad6f",
+            "label": "Product Overview",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_54eba8889adaf",
+            "label": "Products Overview Headline",
+            "name": "products_overview_headline",
+            "prefix": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": 80,
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889adf1",
+            "label": "Overview Left Icon",
+            "name": "overview_left_icon",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Use this field to add an icon or graphic over the top of text on the left hand side of the products overview area.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "url"
+        },
+        {
+            "key": "field_54eba8889ae31",
+            "label": "Overview Left Headline",
+            "name": "overview_left_headline",
+            "prefix": "",
+            "type": "text",
+            "instructions": "This is the headline for the left hand side of your overview area. (Ideally this would be about 35 characters or less.)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889ae72",
+            "label": "Overview Left Content",
+            "name": "overview_left_content",
+            "prefix": "",
+            "type": "text",
+            "instructions": "This is the content for the left hand side of your overview area. (Ideally this would be about 325 characters or less.)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54eba8889aeb7",
+            "label": "Overview Right Image",
+            "name": "overview_right_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "This field is used for the large image on the righthand side of the overview area. \r\n\r\nThis image should be approximately 1024px x 690px.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all"
+        },
+        {
+            "key": "field_54eba8889aefe",
+            "label": "Overview Features",
+            "name": "overview_features",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "This is used for the four featured callouts of the overview area.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "row_min": "",
+            "row_limit": "",
+            "layout": "table",
+            "button_label": "Add a product feature",
+            "min": 0,
+            "max": 0,
+            "sub_fields": [
+                {
+                    "key": "field_54eba888e6305",
+                    "label": "Overview Feature's Icon",
+                    "name": "overview_features_icon",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "Please select or upload the icon you would like for this featured item.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "return_format": "url"
+                },
+                {
+                    "key": "field_54eba888e634a",
+                    "label": "Overview Feature's Icon Alt Tag",
+                    "name": "overview_features_icon_alt",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please add an alternative description for this icon.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_54eba888e638d",
+                    "label": "Overview Feature's Headline",
+                    "name": "overview_features_headline",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Blue, linked headline text for your featured item.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_54eba888e63ce",
+                    "label": "Overview Feature Headline Link",
+                    "name": "overview_features_link",
+                    "prefix": "",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": "",
+                    "taxonomy": "",
+                    "allow_null": 1,
+                    "multiple": 0
+                },
+                {
+                    "key": "field_54eba888e640e",
+                    "label": "Overview Feature's Content",
+                    "name": "overview_features_content",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Text about your featured item.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_54eba8889af40",
+            "label": "Section Content",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_54eba8889af81",
+            "label": "Content Builder",
+            "name": "content_builder",
+            "prefix": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_label": "Add Content Section",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "546bd96f3f774",
+                    "name": "image_text_section",
+                    "label": "Image and Text Section",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_54eba8890bca4",
+                            "label": "Products Section Sub Navigation",
+                            "name": "section_text",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please enter the name of the section you are creating. e.g. Benefits Administration. (These will be used for navigating to the main sections of the page.)",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890bcf9",
+                            "label": "Link Location",
+                            "name": "link_location",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please repeat the name of the link with no spaces. Please use dashes for spaces if needed. e.g. Benefits-Administration",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "example-link-location",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890bd3c",
+                            "label": "Product Icon",
+                            "name": "product_icon",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "Icon for above text area (not required).",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all"
+                        },
+                        {
+                            "key": "field_54eba8890bd7d",
+                            "label": "Product Icon Alt Text",
+                            "name": "product_icon_alt",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please enter alt text for the icon.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890bdbf",
+                            "label": "Product Headline",
+                            "name": "product_headline",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Headline for the product opening content",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890bdff",
+                            "label": "Product Content",
+                            "name": "product_content",
+                            "prefix": "",
+                            "type": "textarea",
+                            "instructions": "Brief overview paragraph of the product.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 5,
+                            "new_lines": "wpautop",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890be3f",
+                            "label": "Image Type",
+                            "name": "image_type",
+                            "prefix": "",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "screenshot": "Screenshot",
+                                "product": "Product Image"
+                            },
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "",
+                            "layout": "vertical"
+                        },
+                        {
+                            "key": "field_54eba8890be7f",
+                            "label": "Modal Details",
+                            "name": "modal_type",
+                            "prefix": "",
+                            "type": "select",
+                            "instructions": "Chose if this image will link to a modal box image or video.",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890be3f",
+                                        "operator": "==",
+                                        "value": "screenshot"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "no_modal": "No Modal",
+                                "modal-image": "Image Modal",
+                                "modal-video": "Video Modal"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_54eba8890bebf",
+                            "label": "Product Image",
+                            "name": "product_image",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "Please select an image or screenshot of your product.\r\n\r\nThis image should be approximately 560px x 380px or larger.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all"
+                        },
+                        {
+                            "key": "field_54eba8890bf03",
+                            "label": "Product Image Alt",
+                            "name": "product_image_alt",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please enter alt text for the icon.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890bf43",
+                            "label": "Modal Image",
+                            "name": "modal_image",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "This image should be approximately 1024px x 690px or larger.",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890be7f",
+                                        "operator": "==",
+                                        "value": "modal-image"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all"
+                        },
+                        {
+                            "key": "field_54eba8890bf84",
+                            "label": "Modal Video URL",
+                            "name": "modal_video_url",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "ex: http:\/\/www.youtube.com\/watch?v=Zz2SUE5o5nI",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890be7f",
+                                        "operator": "==",
+                                        "value": "modal-video"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890bfc5",
+                            "label": "Related Content Columns",
+                            "name": "related_content_columns",
+                            "prefix": "",
+                            "type": "true_false",
+                            "instructions": "Do you want to use extra content columns?",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_54eba8890c004",
+                            "label": "Related Content Column 1",
+                            "name": "related_content_column1",
+                            "prefix": "",
+                            "type": "wysiwyg",
+                            "instructions": "This is used for the first of a two column layout under the opening paragraph",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890bfc5",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0
+                        },
+                        {
+                            "key": "field_54eba8890c043",
+                            "label": "Related Content Column 2",
+                            "name": "related_content_column2",
+                            "prefix": "",
+                            "type": "wysiwyg",
+                            "instructions": "This is used for the second of a two column layout under the opening paragraph.",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890bfc5",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0
+                        },
+                        {
+                            "key": "field_54eba8890c083",
+                            "label": "Product Features",
+                            "name": "product_features",
+                            "prefix": "",
+                            "type": "repeater",
+                            "instructions": "These are the four features listed across the bottom of some of the sections.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "min": "",
+                            "max": 4,
+                            "layout": "table",
+                            "button_label": "Add Row",
+                            "sub_fields": [
+                                {
+                                    "key": "field_54eba88996743",
+                                    "label": "Product Feature Header",
+                                    "name": "product_features_header",
+                                    "prefix": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "formatting": "html",
+                                    "maxlength": "",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                },
+                                {
+                                    "key": "field_54eba889967a7",
+                                    "label": "Product Features Content",
+                                    "name": "product_features_content",
+                                    "prefix": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": 2,
+                                    "new_lines": "wpautop",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "546c02f28d450",
+                    "name": "two_text_section",
+                    "label": "Two Text Sections (no image)",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_54eba8890c0c8",
+                            "label": "Products Section Sub Navigation",
+                            "name": "section_text",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please enter the name of the section you are creating. e.g. Benefits Administration. (These will be used for navigating to the main sections of the page.)",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c107",
+                            "label": "Link Location",
+                            "name": "link_location",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please repeat the name of the link with no spaces. Please use dashes for spaces if needed. e.g. Benefits-Administration",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "example-link-location",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c149",
+                            "label": "Product Icon",
+                            "name": "product_icon",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "Icon for above text area (not required).",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all"
+                        },
+                        {
+                            "key": "field_54eba8890c188",
+                            "label": "Product Icon Alt Text",
+                            "name": "product_icon_alt",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Please enter alt text for the icon.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c1c7",
+                            "label": "Product Headline",
+                            "name": "product_headline",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Headline for the product opening content",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c206",
+                            "label": "Product Content",
+                            "name": "product_content",
+                            "prefix": "",
+                            "type": "textarea",
+                            "instructions": "Brief overview paragraph of the product.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 5,
+                            "new_lines": "wpautop",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c245",
+                            "label": "Related Content Headline",
+                            "name": "related_content_headline",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Headline of right side content",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c286",
+                            "label": "Related Content",
+                            "name": "related_content",
+                            "prefix": "",
+                            "type": "textarea",
+                            "instructions": "Brief overview paragraph for related content area.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 5,
+                            "new_lines": "wpautop",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c2c5",
+                            "label": "Related Content Columns",
+                            "name": "related_content_columns",
+                            "prefix": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_54eba8890c2ee",
+                            "label": "Related Content Column 1",
+                            "name": "related_content_column1",
+                            "prefix": "",
+                            "type": "wysiwyg",
+                            "instructions": "This is used for the first of a two column layout under the opening paragraph",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890c2c5",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0
+                        },
+                        {
+                            "key": "field_54eba8890c32e",
+                            "label": "Related Content Column 2",
+                            "name": "related_content_column2",
+                            "prefix": "",
+                            "type": "wysiwyg",
+                            "instructions": "This is used for the second of a two column layout under the opening paragraph.",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_54eba8890c2c5",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0
+                        },
+                        {
+                            "key": "field_54eba8890c36d",
+                            "label": "Product Features",
+                            "name": "product_features",
+                            "prefix": "",
+                            "type": "repeater",
+                            "instructions": "These are the four features listed across the bottom of some of the sections.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "min": "",
+                            "max": 4,
+                            "layout": "table",
+                            "button_label": "Add Row",
+                            "sub_fields": [
+                                {
+                                    "key": "field_54eba889da9d2",
+                                    "label": "Product Feature Header",
+                                    "name": "product_features_header",
+                                    "prefix": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": "",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                },
+                                {
+                                    "key": "field_54eba889daa19",
+                                    "label": "Product Features Content",
+                                    "name": "product_features_content",
+                                    "prefix": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": 2,
+                                    "new_lines": "wpautop",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "546c05219f806",
+                    "name": "enhancements_section",
+                    "label": "Enhancements Section",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_54eba8890c3ad",
+                            "label": "Enhancements Icon",
+                            "name": "enhancements_icon",
+                            "prefix": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all"
+                        },
+                        {
+                            "key": "field_54eba8890c3f1",
+                            "label": "Enhancements Icon Alt",
+                            "name": "enhancements_icon_alt",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c433",
+                            "label": "Enhancements Header",
+                            "name": "enhancements_header",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Large, centered text over the Enhancements area.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c473",
+                            "label": "Enhancements Features",
+                            "name": "enhancements_features",
+                            "prefix": "",
+                            "type": "repeater",
+                            "instructions": "Features of the enhancements area (4 columns)",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "min": "",
+                            "max": "",
+                            "layout": "table",
+                            "button_label": "Add Row",
+                            "sub_fields": [
+                                {
+                                    "key": "field_54eba889f15ed",
+                                    "label": "Enhancements Features Header",
+                                    "name": "enhancements_features_header",
+                                    "prefix": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "formatting": "html",
+                                    "maxlength": "",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                },
+                                {
+                                    "key": "field_54eba889f1634",
+                                    "label": "Enhancements Features Content",
+                                    "name": "enhancements_features_content",
+                                    "prefix": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": 3,
+                                    "new_lines": "wpautop",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_54eba8890c4b3",
+                            "label": "Enhancements CTA Text",
+                            "name": "enhancements_cta_text",
+                            "prefix": "",
+                            "type": "text",
+                            "instructions": "Call to Action text for the button.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54eba8890c4f4",
+                            "label": "Enhancements CTA Link",
+                            "name": "enhancements_cta_link",
+                            "prefix": "",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": "",
+                            "taxonomy": "",
+                            "allow_null": 1,
+                            "multiple": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        },
+        {
+            "key": "field_54eba8889afc2",
+            "label": "Related Articles",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_54eba8889b002",
+            "label": "Related Articles",
+            "name": "product_related_article",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "Blue section at the bottom. Ideally this will have three related articles.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": 3,
+            "layout": "row",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_54eba88a0e3cc",
+                    "label": "Related Article Source",
+                    "name": "product_related_article_source",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Event, Blog etc. ",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_54eba88a0e413",
+                    "label": "Article Title",
+                    "name": "product_related_article_title",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Title of the related article",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_54eba88a0e456",
+                    "label": "Article Content",
+                    "name": "product_related_article_content",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Please add the first sentence of your article.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_54eba88a0e499",
+                    "label": "Article Link Text",
+                    "name": "product_related_article_linked_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "Keep in mind that if possible, linking key words is more beneficial to SEO than, \"read more\".",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": 20,
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "formatting": "html",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_54eba88a0e4dc",
+                    "label": "Article Link Location",
+                    "name": "product_related_article_link",
+                    "prefix": "",
+                    "type": "url",
+                    "instructions": "Please add the url of the page you would like to link your text to.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-products_no-logos.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ]
+}
