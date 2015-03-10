@@ -7,41 +7,39 @@ Template Name: Home Page
 <?php get_header(); ?>
 
 <div id="content">
-	<div id="inner-content" class="wrap cf">
-		<div id="main" class="m-all t-all d-all cf" role="main">
-			
-			<div class="main-banner m-all t-all d-all cf">
+	<div class="main-banner m-all t-all cf">
 				
-				<div class="rslides_container">
-					<?php if( have_rows('banner_repeater') ): ?>	
-						<ul class="rslides" id="slider">
-							<?php while( have_rows('banner_repeater') ): the_row(); 
-								// vars
-								$banner_image = get_sub_field('banner_image');
-								$banner_headline = get_sub_field('banner_headline');
-								$banner_text = get_sub_field('banner_text');
-								$banner_cta_text = get_sub_field('banner_cta_text');
-								$banner_cta_link = get_sub_field('banner_cta_link');
-								?>
-									<li>	
-										<div class="featured">
-											<div class="featured-title"><?php echo $banner_headline; ?></div>
-											<div class="featured-excerpt">
-											<p><?php echo $banner_text; ?></p>
-											</div>
-											<div class="featured-link"><a href="<?php echo $banner_cta_link; ?>"><?php echo $banner_cta_text; ?></a></div>
-										</div>
-										<div class="banner-images">
-											<img src="<?php echo $banner_image; ?>">
-										</div>
-									</li>
-							<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>		
-				</div><!-- .rslides #slider -->
-			</div><!--  rslides_container  -->
+		<div class="rslides_container">
+			<?php if( have_rows('banner_repeater') ): ?>	
+				<ul class="rslides" id="slider">
+					<?php while( have_rows('banner_repeater') ): the_row(); 
+						// vars
+						$banner_image = get_sub_field('banner_image');
+						$banner_headline = get_sub_field('banner_headline');
+						$banner_text = get_sub_field('banner_text');
+						$banner_cta_text = get_sub_field('banner_cta_text');
+						$banner_cta_link = get_sub_field('banner_cta_link');
+						?>
+							<li>	
+								<div class="featured">
+									<div class="featured-title"><?php echo $banner_headline; ?></div>
+									<div class="featured-excerpt">
+									<p><?php echo $banner_text; ?></p>
+									</div>
+									<div class="featured-link"><a href="<?php echo $banner_cta_link; ?>"><?php echo $banner_cta_text; ?></a></div>
+								</div>
+								<div class="banner-images">
+									<img src="<?php echo $banner_image; ?>">
+								</div>
+							</li>
+					<?php endwhile; ?>
+				</ul>
+			<?php endif; ?>		
+		</div><!-- .rslides #slider -->
+	</div><!--  rslides_container  -->
 
-
+	<div id="inner-content" class="wrap cf">
+		<div id="main" class="m-all t-all d-all cf" role="main">	
 
 			<?php if( have_rows('products_services') ): ?>
 

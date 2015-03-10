@@ -3021,7 +3021,11 @@ This is for the larger monitors and possibly full screen viewers.
 		top: 50px;
 		right: 90px
 	}
-	.wrap { width: 100%; }
+
+	.wrap { 
+		max-width: 1152px;
+		width: 100%; 
+	}
 
 	/* Home */
 	.blue-gradient,

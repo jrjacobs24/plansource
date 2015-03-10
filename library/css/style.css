@@ -1002,16 +1002,21 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 #logo {
-	position: absolute;
-	top: 3px;
-	left: 20px;
+	float: left;
 }
-#logo img { width: 325px; }
+
+#logo img { 
+	width: 325px; 
+}
+
 #inner-header {
 	background-color: #fff;
 	min-height: 100px;
+	padding: 17px 0;
+	padding: 1.063em 0;
 	position: relative;
 }
+
 ul.header-ctas {
 	width: 101%;
 	float: left;
@@ -1062,9 +1067,20 @@ ul.header-ctas li .text {
 /*********************
 NAVIGATION STYLES
 *********************/
-nav { margin-top: 80px; }
+nav {
+ margin-top: 80px; 
+}
+
+.ubermenu-main {
+	margin-top: 17px;
+}
+
 .ubermenu-skin-vanilla.ubermenu-responsive-toggle {
 	background: none; 
+}
+
+.themebutton {
+	margin-top: 4px !important;
 }
 
 .preheader-nav {
@@ -1085,13 +1101,14 @@ nav { margin-top: 80px; }
 	margin: 0 0 -5px 5px;
 }
 .preheader-nav .themebutton.login {
-	background-color: #eee;
-	font-size: .75em;
+	background-color: #ff6600;
+	font-size: 1.000em;
 	font-weight: 600;
 	padding: 5px 10px;
+	text-transform: none;
 }
 .preheader-nav .themebutton.login a {
-	color: #333333;
+	color: #fff;
 }
 
 .nav {
@@ -1107,6 +1124,18 @@ nav { margin-top: 80px; }
 }
 .nav li ul.sub-menu li a,
 .nav li ul.children li a { padding-left: 30px; }
+
+/*********************
+NAV SEARCH BAR - Jonathon Jacobs
+*********************/
+
+.ubermenu .ubermenu-submenu .ubermenu-search .ubermenu-searchform {
+	height: 35px;
+}
+
+.ubermenu .ubermenu-submenu .ubermenu-search input.ubermenu-search-input {
+	padding: 4px 50px 4px 8px;
+}
 
 /*********************
 POSTS & CONTENT STYLES
@@ -1892,7 +1921,6 @@ Home Page Lower Callouts
 	border: none;
 	color: #fff;
 	padding: 10px 20px;
-	border-radius: 20px;
 	text-transform: uppercase;
 	font-size: .85em;
 	font-weight: 600;
@@ -2605,8 +2633,16 @@ ENDS BONES GRID SPECIFIC BREAKPOINTS
 		font-size: 28px;
 		line-height: 32px;
 	}
-	.benifits-sections { padding: 30px 30px 30px 0; }
-	#logo img { width: 100%; }
+
+	.benifits-sections { 
+		padding: 30px 30px 30px 0; 
+	}
+
+	#logo img { 
+		max-width: 325px;
+		width: 100%; 
+	}
+
 	ul li.cta-1,
 	ul li.cta-2 { padding: 5px 40px; }
 	#searchform {
@@ -2812,11 +2848,10 @@ About Page
 }
 
 @media only screen and (min-width: 1030px) {
-	nav { margin-top: 0; }
-	#ubermenu-main-5-main-nav { 
-		top: 50px;
-		right: 0px
+	nav { 
+		margin-top: 0; 
 	}
+
 	#logo {
 		top: 15px;
 		left: 40px;
@@ -3057,11 +3092,11 @@ LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
-	#ubermenu-main-5-main-nav { 
-		top: 50px;
-		right: 90px
+
+	.wrap { 
+		max-width: 1152px;
+		width: 100%; 
 	}
-	.wrap { width: 100%; }
 
 	/* Home */
 	.blue-gradient,
