@@ -46,31 +46,39 @@
 			<header class="header" role="banner">
 				<div id="inner-header" class="wrap cf">
 				
-				<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-					<input type="text" size="put_a_size_here" name="s" id="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-					<input type="submit" id="searchsubmit" value="&#xf002;" class="search"/>
-				</form>
+					<!-- <form method="get" id="searchform" action="<?php // bloginfo('home'); ?>/">
+						<input type="text" size="put_a_size_here" name="s" id="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<input type="submit" id="searchsubmit" value="&#xf002;" class="search"/>
+					</form> -->
 
-				<div class="preheader-nav">
-					<?php wp_nav_menu( array( 'theme_location' => 'top-nav' ) ); ?>
-				</div>
-
-					<div id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="http://plansource.com/wp-content/uploads/2014/10/logo-plansource.jpg" alt="One Source. Many Benefits."></a></div>
+					
 
 					<nav role="navigation">
+						<div id="logo">
+							<a href="<?php echo home_url(); ?>" rel="nofollow">
+								<img src="http://plansource.com/wp-content/uploads/2014/10/logo-plansource.jpg" alt="One Source. Many Benefits.">
+							</a>
+						</div>
+
 						<?php wp_nav_menu(array(
-    					'container' => false,                           // remove nav container
-    					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-    					'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					'menu_class' => 'nav top-nav cf',               // adding custom nav class
-    					'theme_location' => 'main-nav',                 // where it's located in the theme
-    					'before' => '',                                 // before the menu
+						'container' => false,                           // remove nav container
+						'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+						'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+						'menu_class' => 'nav top-nav cf',               // adding custom nav class
+						'theme_location' => 'main-nav',                 // where it's located in the theme
+						'before' => '',                                 // before the menu
 	        			'after' => '',                                  // after the menu
 	        			'link_before' => '',                            // before each link
 	        			'link_after' => '',                             // after each link
 	        			'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => ''                             // fallback function (if there is one)
+						'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
+
 					</nav>
+
+					<!-- <div class="preheader-nav">
+						<?php //wp_nav_menu( array( 'theme_location' => 'top-nav' ) ); ?>
+					</div> -->
+
 				</div>
 			</header>

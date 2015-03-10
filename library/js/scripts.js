@@ -112,7 +112,7 @@ jQuery(document).ready(function($) {
 
   $('.preheader-nav').find('li:first-child').addClass('themebutton login');
   $('.preheader-nav').find('li:first-child a').addClass('modal-login');
-  $('.preheader-nav').find('li:first-child a').append( ' <span class="yellow"><i class="fa fa-chevron-circle-right"></i></span>' );
+  // $('.preheader-nav').find('li:first-child a').append( ' <span class="yellow"><i class="fa fa-chevron-circle-right"></i></span>' );
 
   // $('.preheader-nav').find('li').eq(0).addClass('themebutton login');
   // $('.preheader-nav').find('li').eq(0).find('a').addClass('modal-login').append(' <span class="yellow"><i class="fa fa-chevron-circle-right"></i></span>');
