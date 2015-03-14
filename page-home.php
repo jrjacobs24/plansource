@@ -14,23 +14,68 @@ Template Name: Home Page
 				<ul class="rslides" id="slider">
 					<?php while( have_rows('banner_repeater') ): the_row(); 
 						// vars
-						$banner_image = get_sub_field('banner_image');
-						$banner_headline = get_sub_field('banner_headline');
-						$banner_text = get_sub_field('banner_text');
-						$banner_cta_text = get_sub_field('banner_cta_text');
-						$banner_cta_link = get_sub_field('banner_cta_link');
+						$banner_logo = get_sub_field( 'banner_logo' );
+						$banner_image = get_sub_field( 'banner_image' );
+						$banner_color = get_sub_field( 'banner_color' );
+						$banner_headline = get_sub_field( 'banner_headline' );
+						$banner_text = get_sub_field( 'banner_text' );
+						$banner_cta1_text = get_sub_field( 'banner_cta1_text' );
+						$banner_cta1_link = get_sub_field( 'banner_cta1_link' );
+						$banner_cta1_color = get_sub_field( 'banner_cta1_color' );
+						$banner_cta2_text = get_sub_field( 'banner_cta2_text' );
+						$banner_cta2_link = get_sub_field( 'banner_cta2_link' );
+						$banner_cta2_color = get_sub_field( 'banner_cta2_color' );
 						?>
-							<li>	
+							<li style="background-color:<?php echo $banner_color; ?>; height: 100%;">	
 								<div class="featured">
-									<div class="featured-title"><?php echo $banner_headline; ?></div>
-									<div class="featured-excerpt">
-									<p><?php echo $banner_text; ?></p>
+
+									<?php // Get banner headline ?>
+									<?php if ( $banner_headline ): ?>
+										<div class="featured-title"><?php echo $banner_headline; ?></div>
+									<?php endif; ?>
+									
+									<?php // Get banner text ?>
+									<?php if ( $banner_text ): ?>
+										<div class="featured-excerpt">
+											<p><?php echo $banner_text; ?></p>
+										</div>
+									<?php endif; ?>
+
+									<?php // Get banner logo ?>
+									<?php if ( $banner_logo ): ?>
+										<div class="featured-logo">
+											<img class="featured-logo-img" src="<?php echo $banner_logo['url']; ?>" alt="<?php echo $banner_logo['alt']; ?>" />
+										</div>
+									<?php endif; ?>
+									
+									<div class="featured-link">
+									<?php // Get Call to Action link and text for the first CTA button ?>
+									<?php if ( $banner_cta1_link ): ?>
+											<a style="
+												background-color: <?php echo $banner_cta1_color; ?>; 
+												border-color: <?php echo $banner_cta1_color; ?>;" 
+												href="<?php echo esc_url( $banner_cta1_link ); ?>" title="<?php echo $banner_cta1_text; ?>">
+												<?php echo $banner_cta1_text; ?>
+											</a>
+									<?php endif; ?>
+									<?php // Get Call to Action link and text for the second CTA button ?>
+									<?php if ( $banner_cta2_link ): ?>
+											<a style="
+												background-color: <?php echo $banner_cta2_color; ?>; 
+												border-color: <?php echo $banner_cta2_color; ?>;" 
+												href="<?php echo esc_url( $banner_cta2_link ); ?>" title="<?php echo $banner_cta2_text; ?>">
+												<?php echo $banner_cta2_text; ?>
+											</a>
+									<?php endif; ?>
 									</div>
-									<div class="featured-link"><a href="<?php echo $banner_cta_link; ?>"><?php echo $banner_cta_text; ?></a></div>
+
 								</div>
-								<div class="banner-images">
-									<img src="<?php echo $banner_image; ?>">
-								</div>
+								<?php // Get background image ?>
+								<?php if ( $banner_image ): ?>
+									<div class="banner-images">
+										<img class="banner-background-image" src="<?php echo $banner_image['url']; ?>" alt="<?php echo $banner_image['alt']; ?>" />
+									</div>
+								<?php endif; ?>
 							</li>
 					<?php endwhile; ?>
 				</ul>

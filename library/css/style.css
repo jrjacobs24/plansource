@@ -1747,11 +1747,16 @@ Home Page Lower Callouts
 	float: left;
 }
 .rslides img {
-	display: block;
 	height: auto;
+	border: 0;
+}
+.rslides .banner-background-image {
+	display: block;
 	float: left;
 	width: 100%;
-	border: 0;
+}
+#slider {
+	height: 505px;
 }
 .slider-boxed #slider .rslides-inner { width: 1180px; }
 #slider .rslides-container {
@@ -1796,6 +1801,7 @@ Home Page Lower Callouts
 /* ends layout and controls */
 /* Slider text content */
 /* Animate slide content */
+#slider .featured-logo,
 #slider .featured-title,
 #slider .featured-excerpt,
 #slider .featured-link {
@@ -1813,9 +1819,11 @@ Home Page Lower Callouts
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+#slider .rslides1_on .featured-logo,
 #slider .rslides1_on .featured-title,
 #slider .rslides1_on .featured-excerpt,
 #slider .rslides1_on .featured-link,
+#slider .rslides2_on .featured-logo,
 #slider .rslides2_on .featured-title,
 #slider .rslides2_on .featured-excerpt,
 #slider .rslides2_on .featured-link {
@@ -1829,13 +1837,22 @@ Home Page Lower Callouts
 	transform: translate(0);
 }
 #slider .rslides2_on .featured-title {
+	-webkit-transition-delay: 0.8s;
+	-moz-transition-delay: 0.8s;
+	-ms-transition-delay: 0.8s;
+	-o-transition-delay: 0.8s;
+	transition-delay: 0.8s;
+	
+}
+#slider .rslides2_on .featured-excerpt {
 	-webkit-transition-delay: 1.0s;
 	-moz-transition-delay: 1.0s;
 	-ms-transition-delay: 1.0s;
 	-o-transition-delay: 1.0s;
 	transition-delay: 1.0s;
+	
 }
-#slider .rslides2_on .featured-excerpt {
+#slider .rslides2_on .featured-logo {
 	-webkit-transition-delay: 1.2s;
 	-moz-transition-delay: 1.2s;
 	-ms-transition-delay: 1.2s;

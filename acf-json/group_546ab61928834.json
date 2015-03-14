@@ -37,12 +37,12 @@
             "button_label": "Add Banners",
             "sub_fields": [
                 {
-                    "key": "field_546bfcc788639",
-                    "label": "Banner Image",
-                    "name": "banner_image",
+                    "key": "field_55039546c4b56",
+                    "label": "Banner Color",
+                    "name": "banner_color",
                     "prefix": "",
-                    "type": "image",
-                    "instructions": "This is where you'll add you images for the rotating gallery area. These should be 1280px by 340px.",
+                    "type": "color_picker",
+                    "instructions": "Select a banner background color.",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -50,8 +50,42 @@
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "url",
-                    "preview_size": "thumbnail",
+                    "default_value": "#42b8ea"
+                },
+                {
+                    "key": "field_55039eb63df54",
+                    "label": "Banner Image",
+                    "name": "banner_image",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "Upload a background image for this slide.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all"
+                },
+                {
+                    "key": "field_546bfcc788639",
+                    "label": "Banner Logo",
+                    "name": "banner_logo",
+                    "prefix": "",
+                    "type": "image",
+                    "instructions": "This is where you'll add logos for the banner images.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
                     "library": "all"
                 },
                 {
@@ -100,8 +134,8 @@
                 },
                 {
                     "key": "field_546bff33c9b70",
-                    "label": "Banner CTA Text",
-                    "name": "banner_cta_text",
+                    "label": "Call to Action 1 Text",
+                    "name": "banner_cta1_text",
                     "prefix": "",
                     "type": "text",
                     "instructions": "This is the text for the button of your call to action.",
@@ -122,8 +156,8 @@
                 },
                 {
                     "key": "field_546bff75c9b71",
-                    "label": "Banner CTA Link Location",
-                    "name": "banner_cta_link",
+                    "label": "Call to Action 1 Link Location",
+                    "name": "banner_cta1_link",
                     "prefix": "",
                     "type": "url",
                     "instructions": "Please enter the url of the page you would like to link to.",
@@ -136,6 +170,77 @@
                     },
                     "default_value": "",
                     "placeholder": ""
+                },
+                {
+                    "key": "field_5503a8e130733",
+                    "label": "Call to Action 1 Button Color",
+                    "name": "banner_cta1_button_color",
+                    "prefix": "",
+                    "type": "color_picker",
+                    "instructions": "Set color for this Call to Action button.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#E57B24"
+                },
+                {
+                    "key": "field_5503a9d030735",
+                    "label": "Call to Action 2 Text",
+                    "name": "banner_cta2_text",
+                    "prefix": "",
+                    "type": "text",
+                    "instructions": "This is the text for the button of your call to action.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5503a9ed30736",
+                    "label": "Call to Action 2 Link Location",
+                    "name": "banner_cta2_link",
+                    "prefix": "",
+                    "type": "url",
+                    "instructions": "Please enter the url of the page you would like to link to.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5503a9fd30737",
+                    "label": "Call to Action 2 Button Color",
+                    "name": "banner_cta2_button_color",
+                    "prefix": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#E57B24"
                 }
             ]
         },
@@ -272,10 +377,14 @@
                         "class": "",
                         "id": ""
                     },
-                    "post_type": [],
+                    "post_type": [
+
+                    ],
                     "allow_null": 0,
                     "multiple": 0,
-                    "taxonomy": []
+                    "taxonomy": [
+
+                    ]
                 }
             ]
         },
@@ -455,10 +564,14 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": [],
+            "post_type": [
+
+            ],
             "allow_null": 0,
             "multiple": 0,
-            "taxonomy": []
+            "taxonomy": [
+
+            ]
         },
         {
             "key": "field_54739fef22cb5",
